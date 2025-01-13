@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name = 'administrate-field-has_many_search'
-  gem.version = '0.2.0'.freeze
+  gem.version = '0.2.1'.freeze
   gem.authors = ['Klas Eskilson', 'Andrej Antas']
   gem.email = ['klas.eskilson@gmail.com', 'andrej@antas.cz']
   gem.homepage = 'https://github.com/redrick/administrate-field-has_many_search'
@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'administrate', '>= 0.3', '< 1.0'
   gem.add_dependency 'jbuilder', '~> 2'
-  gem.add_dependency 'rails', '>= 4.2', '< 7.1'
+  gem.add_dependency 'rails', '>= 4.2', '< 8'
   gem.add_dependency 'selectize-rails', '~> 0.6'
 
   gem.add_development_dependency 'coveralls', '~> 0'
